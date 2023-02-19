@@ -1,3 +1,25 @@
+/* * {
+    border: solid;
+} */
 h1 {
     text-align: center;
+}
+
+h2 {
+    color: brown;
+}
+
+body {
+    background-color: bisque;
+}
+
+.main {
+    color: darkgreen;
+    width: 60%;
+    margin: auto;
+}
+
+.pages {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
 }
