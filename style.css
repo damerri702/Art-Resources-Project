@@ -1,6 +1,7 @@
 /* * {
     border: solid;
 } */
+
 h1 {
     text-align: center;
 }
@@ -22,4 +23,29 @@ body {
 .pages {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+}
+
+.page {
+    text-align: center;
+}
+
+.gif {
+    display: grid;
+    place-items: center;
+}
+
+.sir {
+    text-align: left;
+    display: grid;
+    place-items: right;
+}
+
+.divimg {
+    text-align: right;
+    display: grid;
+    place-items: right;
+}
+
+.sirp {
+    text-align: right;
 }
